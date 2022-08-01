@@ -20,16 +20,16 @@
     border: 15px solid transparent;
     border-image-source: url("../image/border.png");
     border-image-slice: 51 38 20 132;
-    border-width: 0.6375rem 0.475rem 0.25rem 1.65rem;
+    border-width:  0.6375rem 0.475rem 0.25rem 1.65rem;
     margin-bottom: 0.25rem;
 }
 .panel .inner{
     position: absolute;
-    left: -1.65rem;
-    top: -0.6375rem;
-    right: -0.475rem;
-    bottom: -0.25rem;
-    padding: 0.3rem 0.45rem;
+    left : -1.65rem;
+    top : -0.6375rem;
+    right : -0.475rem;
+    bottom : -0.25rem;
+    padding : 0.3rem 0.45rem
 }
 h3{
     font-size: 0.25rem;
