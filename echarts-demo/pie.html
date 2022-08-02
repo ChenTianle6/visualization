@@ -10,11 +10,8 @@
 </body>
 </html>
 <script>
-    // 获取画布
     const main = document.getElementById('main')
-    // 初始化echarts实例
     const myChart = echarts.init(main)
-    // 定义图表数据
     const option = {
         title: {
             text: '饼图',
@@ -71,8 +68,5 @@
             }
         ]
     };
-
-
-    // 将图表数据绘制到画布上
     myChart.setOption(option)
 </script>
