@@ -6,18 +6,14 @@
     <script src="js/echarts.js"></script>
 </head>
 <body>
-    <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
     <div id="main" style="width: 600px;height:400px;"></div>
 </body>
 </html>
 <script>
     // 获取画布
     const main = document.getElementById('main')
-
     // 初始化echarts实例
     const myChart = echarts.init(main)
-
-
     // 定义图表数据
     const option = {
         title: {
